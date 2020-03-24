@@ -1,0 +1,56 @@
+.split-box{
+  position:absolute;
+  width:50%;
+  height:99%;
+}
+
+.left-box {
+ left:0;
+}
+
+.right-box {
+ right:0;
+ overflow-y:scroll;
+}
+
+object {
+ height:100%;
+ width:99%;
+}
+
+.mstake{
+  font-size:110%;
+  color:red;
+}
+
+#txt {
+  white-space: pre-wrap ;
+  width: 100%;
+}
+.disable-select {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.dialog {
+  pointer-events: none;
+}
+.wrapperTop {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.wrapperBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width:90px;
+  height:40px;
+  pointer-events: auto;
+}
+#pdfLeft{
+}
+#body{
+overflow: hidden
+}

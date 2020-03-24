@@ -1,0 +1,31 @@
+<!DOCTYPE html lang="ja">
+<html>
+<title id="title"></title>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="src/index.css">
+  <link rel="stylesheet" href="src/jquery-ui.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/jquery.selection.js"></script>
+  <script src="js/mousetrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body id="body">
+<div class="split-box left-box" id="pdf" draggable="false">
+  <object type="application/pdf" id="pdf_left"></object>
+</div>
+
+<div class="split-box right-box" draggable="false">
+  <hr draggable="false">
+  <div id="txt"></div>
+  <hr>
+  <div id="button disable-select"><button id="end">終了</button><button id="tyud">中断</button></div>
+  <hr>
+  <div id="pea"></div>
+  <hr>
+  <div id="delete"></div>
+</div>
+</body>
+</html>
