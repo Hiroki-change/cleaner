@@ -35,6 +35,7 @@ OCR処理などで誤字脱字がテキストファイル中に存在し、そ�
 　　「pip install pandas」 pandas install<br>
 　　「pip install jaconv」jaconv install<br>
 　　「pip install html」html install<br>
+  　と入力してください。コピペで貼り付けでも可能です。<br>
      <br>
   ３．work/pre_workフォルダに作業をしたいテキストとPDFのペアを入れる<br>
   　　この時、テキストとPDFは拡張子を除き同名としてください。<br>
