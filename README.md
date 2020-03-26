@@ -18,8 +18,8 @@ OCR処理などで誤字脱字がテキストファイル中に存在し、そ�
 　未インストールの場合以下からDL<br>
 　https://jupyter.org/<br>
 ・形態素解析エンジン　MeCabを使用可能にすること<br>
-  以下を参考に導入<br>
-  https://qiita.com/menon/items/f041b7c46543f38f78f7<br>
+　　以下を参考に導入<br>
+　　https://qiita.com/menon/items/f041b7c46543f38f78f7<br>
 ・Chormeブラウザ<br>
 <br>
  このソフトはローカルサーバを建てそこで動作するものです。<br>
@@ -30,11 +30,11 @@ OCR処理などで誤字脱字がテキストファイル中に存在し、そ�
    
  ２．anaconda promptにおいて本ソフトで使うモジュールのインストールを行います<br>
  　  anaconda promptを起動し、<br>
-     「pip install -U pip」 pipのupdate<br>
-     「pip install chardet」chardet install<br>
-     「pip install pandas」 pandas install<br>
-     「pip install jaconv」jaconv install<br>
-     「pip install html」html install<br>
+　　「pip install -U pip」 pipのupdate<br>
+　　「pip install chardet」chardet install<br>
+　　「pip install pandas」 pandas install<br>
+　　「pip install jaconv」jaconv install<br>
+　　「pip install html」html install<br>
      <br>
   ３．work/pre_workフォルダに作業をしたいテキストとPDFのペアを入れる<br>
   　　この時、テキストとPDFは拡張子を除き同名としてください。<br>
